@@ -32,9 +32,9 @@ except ImportError:
 #  KONFIGURACJA
 # ══════════════════════════════════════════════════════════════
 CURRENT_VERSION = "1.0.0"
-GITHUB_USER     = "TWOJ_NICK"
-GITHUB_REPO     = "NAZWA_REPO"
-VERSION_URL     = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/version.json"
+GITHUB_USER     = "zirokity"
+GITHUB_REPO     = "kliker"
+VERSION_URL     = f"https://github.com/zirokity/kliker/blob/main/version.json"
 RELEASE_URL     = f"https://github.com/{GITHUB_USER}/{GITHUB_REPO}/releases/latest"
 
 # ── Domyślne kolory ────────────────────────────────────────────
@@ -621,4 +621,5 @@ class App(ctk.CTk):
 
 
 if __name__ == "__main__":
+
     App().mainloop()
